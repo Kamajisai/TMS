@@ -1,0 +1,6 @@
+@PtojectAPI_HostAddress = http://localhost:5177
+
+GET {{PtojectAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

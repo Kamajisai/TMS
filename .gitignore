@@ -1,0 +1,19 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore Angular outputs
+frontend/dist/
+frontend/node_modules/
+TMS/frontend/dist/
+TMS/frontend/node_modules/
+
+# Environment files (DO NOT push secrets)
+*.env
+.env*
+
